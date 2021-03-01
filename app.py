@@ -1,5 +1,5 @@
 # import necessary libraries
-from models import create_classes
+#from models import create_classes
 import os
 from flask import (
     Flask,
@@ -27,4 +27,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
