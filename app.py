@@ -25,6 +25,18 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/Visualizations")
+def Visualizations():
+    return render_template("Accession-comparison.html")
+
+@app.route("/Map")
+def Map():
+    return render_template("Map.html")
+
+
+@app.route("/About Us")
+def About_Us():
+    return render_template("about_us.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
