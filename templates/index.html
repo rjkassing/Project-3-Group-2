@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="navbar-brand" href="{{url_for('home')}}">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,11 +19,11 @@
     <ul class="navbar-nav mr-auto">
       </li>
       <li class="nav-item active">
-          <a class="nav-link" href="Accession-comparison.html">Visualizations</a>
+          <a class="nav-link" href="{{url_for('Visualizations')}}">Visualizations</a>
       </li>
       </li>
       <li class="nav-item active">
-          <a class="nav-link" href="Map.html">Map</a>
+          <a class="nav-link" href="{{url_for('Map')}}">Map</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="">Analysis</a>
@@ -32,7 +32,7 @@
       <a class="nav-link" href="">Machine Learning Model</a>
     </li>
       <li class="nav-item active">
-        <a class="nav-link" href="about_us.html">About Us</a>
+        <a class="nav-link" href="{{url_for('About_Us')}}">About Us</a>
       </li>
     </ul>
     </div>
@@ -151,7 +151,7 @@
     <img src="static/Images/MET1.png" alt ="Met Openaccess"width="800px" height="400px" ><br>
     <br><br>
   <div class="col-md-5">
-    <img src="static/Images/met-filckr_v2.jpg" alt ="Met flickr"width="780px" height="300px" >
+    <img src="static/Images/met-filckr_v2.jpg" alt ="Met Filckr"width="780px" height="300px" >
   </div>
 </div>
 

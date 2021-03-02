@@ -13,11 +13,8 @@ from flask import (
 #################################################
 app = Flask(__name__)
 
-#################################################
-# Database Setup
-#################################################
-
 from flask import Flask, render_template
+
 app = Flask(__name__)
 
 # create route that renders index.html template
@@ -34,7 +31,7 @@ def Map():
     return render_template("Map.html")
 
 
-@app.route("/About Us")
+@app.route("/About_Us")
 def About_Us():
     return render_template("about_us.html")
 
