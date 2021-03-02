@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 # create route that renders index.html template
 @app.route("/")
-def home():
+def Home():
     return render_template("index.html")
 
 @app.route("/Visualizations")
