@@ -4,6 +4,8 @@ The Metropolitan Museum of Art provides select datasets of information on more t
 
 The purpose of this project is to create a showcase to show how the data science and machine learning models  would be applied into art by using Openaccess dataset of MET Museum.
 
+Deployed app of the project found be at https://group2-tech-in-arts.herokuapp.com/
+
 ### Dataset
 
 * https://github.com/metmuseum/openaccess/blob/master/MetObjects.csv
@@ -17,7 +19,7 @@ The purpose of this project is to create a showcase to show how the data science
 * Analyze how Chinese Art is presented in the collection
 * Use Machine Learning Models to make predictions for Art Acqusition of Museum
 
-### Objectives
+### Tasks
 
 * Clean and arrange the dataset using Pandas and Jupyter Notebook
 * Develope front end using HTML, CSS, JavaScript
@@ -25,6 +27,6 @@ The purpose of this project is to create a showcase to show how the data science
 * Use Random Forest and Arima Times Series Model to apply machine learning 
 * Use Python Flask as web server and deploy with Heroku
 
-An image of workin Heroku Deployment
+An image of working Heroku Deployment
 
 ![alt text](https://github.com/rjkassing/Project-3-Group-2/blob/main/static/Images/image.png)
