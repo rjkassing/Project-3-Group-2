@@ -27,6 +27,6 @@ Deployed app of the project found be at https://group2-tech-in-arts.herokuapp.co
 * Use Random Forest and Arima Times Series Model to apply machine learning 
 * Use Python Flask as web server and deploy with Heroku
 
-An image of working Heroku Deployment
+An image of Heroku Deployment of our project
 
 ![alt text](https://github.com/rjkassing/Project-3-Group-2/blob/main/static/Images/image.png)
