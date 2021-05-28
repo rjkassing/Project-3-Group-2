@@ -2,7 +2,7 @@
 
 The Metropolitan Museum of Art provides select datasets of information on more than 470,000 artworks in its Collection for unrestricted commercial and noncommercial use. These select datasets are now available for use in any media without permission or fee; they also include identifying data for artworks under copyright.
 
-The purpose of this project is to create a showcase to show how the data science and machine learning models  would be applied into art by using Openaccess dataset of MET Museum.
+The purpose of this project is to create a showcase to explore how the data science and machine learning models  would be applied into art by using Openaccess dataset of MET Museum.
 
 Deployed app of the project found be at https://group2-tech-in-arts.herokuapp.com/
 
